@@ -14,7 +14,7 @@ body {
 
 /* headings and logo */
 
-h1,h2 {
+h1, h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -236,4 +236,15 @@ footer {
     margin: 1%;
     padding: 5%;
     color: #3a3a3a;
+}
+
+#photos {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+}
+
+#photos > img {
+    width: 100%;
 }
